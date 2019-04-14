@@ -5,7 +5,10 @@ export default Controller.extend({
 	actions : {
 		addTask : function(){
 			var title = this.get('title');
-			alert(title);
+			var description = this.get('description');
+			var date = this.get('date');
+
+			// Create new task
 		}
 	}
 });
