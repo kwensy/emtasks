@@ -1,2 +1,10 @@
 {{outlet}}
-<h2>Tasks</h2>
+<h2>Tasks({{model.length}})</h2>
+
+{{#each model as |task|}}
+  <div class="well">
+    <h5>{{task.title}}</h5>
+    <small>Due : {{task.date}}</small>
+    <p>{{task.description}}</p>
+  </div>
+{{/each}}
