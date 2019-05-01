@@ -22,8 +22,12 @@ module.exports = function(defaults) {
 
   // add bootstrap
   app.import({
-    development : 'node_modules/bootstrap/dist/css/bootstrap.min.css',
+    development : 'node_modules/bootstrap/dist/css/bootstrap.css',
     production : 'node_modules/bootstrap/dist/css/bootstrap.min.css'});
+  // add moment js
+  app.import({
+    development : 'node_modules/moment/min/moment.min.js',
+    production : 'node_modules/moment/min/moment.min.js'});
   
   return app.toTree();
 };
