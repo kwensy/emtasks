@@ -1,5 +1,5 @@
 'use strict';
-console.log(process.env);
+
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'emtasks',

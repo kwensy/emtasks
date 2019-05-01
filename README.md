@@ -1,7 +1,7 @@
 # emtasks
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+simple CRUD app with Google Firabase data store.
 
 ## Prerequisites
 
@@ -17,6 +17,11 @@ You will need the following things properly installed on your computer.
 * `git clone <repository-url>` this repository
 * `cd emtasks`
 * `npm install`
+
+## Configuration
+
+* Rename `sample.env` to `.env` file in your root directory
+* Provide all required firebase configuration properties (`Your Firebase project -> Parameters -> Add firebase to Web App`)
 
 ## Running / Development
 
